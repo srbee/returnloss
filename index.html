@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+  
+  </head>
+  
+<!--  ============================================== -->
+  <body onload='myDate()'>              
+    
+    <script src="sketch.js"></script>
+  <br>  
+<!-- ======== My Programming Starts below this line ==========  -->
+    
+    <h1>============================================ </h1>
+    <h1> ~~~ Dipole Length & SWR to Return Loss  Calculator ~~~ </h1>
+    <h1>============================================ </h1>
+    <h4></h4>
+  <hr>  
+    <h5>~~~~~~~~~~~~~~~~~~~~~~~~~~ Dipole Length Calculator ~~~~~~~~~~</h5>
+
+     <p>~~~~~~~~~~~~~~~~~~~~~ Each Side (feet) = 234/f(in MHZ)</p>  
+~~~~~~~~~~~~~~~~~ Enter freq in MHz ==> <input id='In1'  value=14.2  ></input>
+<button id='b1' class="Button"onclick='freq2Len(In1.value)'> Calculate Length of Each Side </button> 
+  
+  
+    <p id='topLine'>*********** </p>
+<p id='L1'> ************ </p>
+<p id="L2"> ************ </p>
+  
+    <hr>
+
+  
+ 
+  <h5> ~~~~~~~~~~~~~~~~~~~~~~ VSWR to Return-Loss Calculator ~~~~~~~~~~~~~~~~~~~  </h5>
+  
+  <p id="L5">~~~~~~~~~~~~~~~~~~~ RL=-20log10((VSWR-1)/(VSWR+1)) </p>
+~~~~~~~~~~~~~~~~~~~~ Enter SWR (1 is allowed) ==> <input id='In2'  value=1.01  ></input>
+<button id='b2' class="Button" onclick='swr2RLoss(In2.value)'> Convert from SWR to Return Loss </button>
+
+
+<p id='L3'>*********** </p>
+<p id='L4'> ************ </p>
+
+
+
+
+
+<hr><hr>
+<p id="current_date">  </p>  
+<hr>
+<p> ~~~~~~~~~~~~~~~~~~~~~~~~~~~  A shout out to VU3RAZ ~~~~~~~~~~~~~~~~~~<p>
+<hr>
+<p> ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Last Modified on 27 Jan., 2023  ~~~~~~~~~~~~~~~~ </p>
+    
+</body>
+</html>

@@ -1,0 +1,34 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color:lightyellow;
+  color:blue
+}
+  
+  h1 {
+  color: green;
+}
+ 
+h4 {
+  color: magenta;
+}
+
+h5 {
+  color: green;
+}
+
+
+
+
+.Button {
+    color: #333;
+    border: 2px solid orange;
+    text-align: center;	
+}
+
+  
+  
+}
+canvas {
+  display: block;
+}
