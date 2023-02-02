@@ -13,7 +13,7 @@
   </head>
   
 <!-- ============================================== -->
-  <body onload='myDate()'>              
+  <body>              
     
     <script src="sketch.js"></script>
   <br>  
@@ -26,12 +26,12 @@
   <hr>  
     <h5>Dipole Length Calculator </h5>
 
-     <p>Each Side (feet) = 234/f(in MHZ)</p>  
+     <p> Each Side (feet) = 234/f(in MHZ)</p>  
 Enter freq in MHz ==> <input id='In1'  value=14.2  ></input>
 <button id='b1' class="Button"onclick='freq2Len(In1.value)'> Calculate Length of Each Side </button> 
   
   
-    <p id='topLine'>*********** </p>
+<p id='topLine'>*********** </p>
 <p id='L1'> ************ </p>
 <p id="L2"> ************ </p>
   
@@ -42,7 +42,7 @@ Enter freq in MHz ==> <input id='In1'  value=14.2  ></input>
   <h5>  VSWR to Return-Loss Calculator </h5>
   
   <p id="L5"> RL=-20log10((VSWR-1)/(VSWR+1)) </p>
- Enter SWR (1 is allowed) ==> <input id='In2'  value=1.01  ></input>
+ Enter SWR ==> <input id='In2'  value=1.01  ></input>
 <button id='b2' class="Button" onclick='swr2RLoss(In2.value)'> Convert from SWR to Return Loss </button>
 
 
