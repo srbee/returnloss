@@ -26,9 +26,9 @@ function freq2Len(fMhz){
     
     // b1p.innerHTML=(234/(In1.value)).toString()
    // b1p.innerHTML=String(234/(In1.value))
-    topLine.innerHTML='~~~~~~~~~~~~~~~ For frequency of '+In1.value+' Mhz'
-    L1.innerHTML='~~~~~~~~~~~~~~~ Each Side ='+String(Feet)+'    '+' feet'+'   and '+Inch+' inches'
-    L2.innerHTML='~~~~~~~~~~~~~~~ Each Side ='+String(Meters)+'    '+" meters "+'   and '+cm+' cm'
+    topLine.innerHTML='For frequency of '+In1.value+' Mhz'
+    L1.innerHTML=' Each Side ='+String(Feet)+'    '+' feet'+'   and '+Inch+' inches'
+    L2.innerHTML=' Each Side ='+String(Meters)+'    '+" meters "+'   and '+cm+' cm'
     //L3.innerHTMLfeetInch+' feet'
   
 }// end of freq2Len()
@@ -46,8 +46,8 @@ function swr2RLoss(mySWR){
                     
   RL=RL.toFixed(2)
 
-  L3.innerHTML='~~~~~~~~~~~~~~~~~~~~ The RL for VSWR of '+mySWR+'    is  :'
-  L4.innerHTML='~~~~~~~~~~~~~~~~~~~~ RL = '+RL
+  L3.innerHTML=' The RL for VSWR of '+mySWR+'    is  :'
+  L4.innerHTML=' RL = '+RL
   
    
   
