@@ -55,7 +55,7 @@ function swr2RLoss(mySWR){
 
 function myDate(){
  
-deco='    ~~~~~~~~~~~~~~~~~~~~    '
+deco=''
 document.getElementById("current_date").innerHTML =deco + Date()+deco;
 
   
